@@ -2,6 +2,8 @@ import BuyResidentialsPage from "@/template/BuyResidentialsPage";
 import connectDB from "@/utils/connectDB";
 import Profile from "@/models/Profile";
 
+export const dynamic = 'force-dynamic';
+
 async function BuyResidentials({ searchParams }) {
   try {
     await connectDB();
